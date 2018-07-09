@@ -1,1 +1,9 @@
 hello there !!!
+Here are Commands Functions to create a New Repository:-
+First in command prompt navigate the folder you made that your text file contain by using "cd desktop/folder name
+git init - The "init" command stands for initialize. Once you run "git init", Git will initialize a hidden directory called ".git" in the Folder. And you'll get a confirmation that "Initialized empty Git repository in /user/sonu/new-folder/.git/"  
+git add.Text filename - "git add." adds text file that you create and git will track that file.
+git status - Run the command "git status". it Shows you the status of files in the index versus the working directory. It will list out files that are tracked.
+git commit -m "git commit" - To commit to a repository, use the "commit" command.In double inverted commas type your commit message. We a commit message must tell what your commit does – adds or removes files, updates and so on.
+git remote add origin "your remote repository address here" - It tell Git to "add" a repository. The "origin" option is the default name for the server on which your remote repository is located.There's a link to your project on GitHub.
+git push -u origin master - The command "push" tells Git to push your files to a remote repository that we specified is the server our local repository is connected to (origin) and the branch we're pushing is master.
